@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+}
+
+.baba {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.baba2 {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.my-head {
+    background-color: #fff8f3;
+    background-image: url('images/header_bg.png'), url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+}
+
+.title {
+    font-weight: 800;
+    ;
+    font-size: 45px;
+}
+
+.baba2 {
+    list-style: none;
+}
+
+ul li {
+    margin-right: 50px;
+}
+
+li a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.btn-primary {
+    /*border-radius: 5px;*/
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 30px;
+    margin-right: 20px;
+}
+
+/* Hardy vai er kaj kom */
+
+.btn-downlode-cv {
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 18px 35px;
+    border: none;
+    font-size: large;
+}
+
+.fa-solid fa-downlod {
+    padding-left: 500px;
+}
+
+.btn-contact {
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: large;
+    border-color: #FD6E0A;
+    color: #FD6E0A;
+    background-color: transparent;
+}
+
+.Mary-hardy {
+    display: flex;
+    align-items: center;
+    padding: 40px 30px 0px 200px;
+    
+}
+
+.welcome {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+
+}
+
+.d {
+    margin-left: 10px;
+}
+
+.name {
+    margin: 5px 0px 20px 0px;
+    padding-top: 0px;
+    font-weight: 700;
+    font-size: 85;
+
+}
+
+/* About Me Section*/
+
+.main-fast-section{
+    height: 550px;
+    width: 1140px;
+    background-color: #fff8f3;
+    margin: auto;
+    margin: 130px auto;
+    border-radius: 10px;
+    border: 1px solid green;
+}
+
+.sub-about-me{
+    margin: 130px 150px;
+    text-align: center;
+
+}
+.four-son{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.d {
+    margin-left: 10px;
+
+}
+
+/*"About-me-Section"*/
+.min-fast-section {
+    background-color: #fff8f3;
+    padding: 130px 150px;
+    margin: 130px 230px;
+    text-align: center;
+    height: 550px;
+
+}
+.min-fast-section{
+    background-color: #fff8f3;
+}
+
+.fast-btn {
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+}
+/*.what I do*/
+.what-section{
+    text-align: center;
+    margin: 0px 200px 130px 200px;
+}
+.What-I-do{ 
+    /* display: flex; */
+    /* text-alain: center;*/
+    /* width: 827px;
+    height: 288px; */
+    /* padding: 55px 20px 20px 15; */
+    margin: 0px 200px 130px 200px;
+}
+.What-I{
+    display: flex;
+}
+.what-title{
+    text-align: center;
+    margin: 0px 100px 50px;
+}
+
+.box{
+    /* border: 2px solid green;*/
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin-right: 24px;
+    box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, .06);
+}
+/*What I do Section*/
+.What-section{
+    margin: 0px 200px 130px 230px ;
+}
+/*resumi work*/
+.resumi{
+    /* margin: 0px 200px 130px 230px; */
+    
+    display: flex;
+}
+.edu-btn{
+    text-align: center;
+}
+.summary{
+    /*border:1px solid red*/
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.summary-edu{
+font-weight: 700;
+font-size: 30px;
+color: #474747;  
+}
+
+.majkhane{
+    /* align-items:center;*/
+    text-align: center;
+    border: 2px solid red;
+    margin-top: 50;
+}
+.one{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.two{
+    font-weight: 600;
+    font-size: 20px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.tree{
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.edu{
+    margin-right: 24px;
+}
+.footer{
+    display: flex;
+    background-color: #fff8f3;
+    height: 780px;
+    width: 100vw;
+    padding:130px 200px;
+
+}
+form input[type='text'],form input[type='email'],form textarea{
+    display: block;
+    width: 100%;
+}
+input{
+    border: 1px solid red;
+}
+.footer section{
+    width: 50%;
+
+}
+.md{
+margin-right: 100px;
+}
+.mouse:hover{
+    background-color:2px solid teal;
+}
+
